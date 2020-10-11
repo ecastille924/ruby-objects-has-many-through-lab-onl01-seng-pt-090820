@@ -1,4 +1,4 @@
-require "pry"
+# require "pry"
 
 class Doctor
 
@@ -19,7 +19,6 @@ class Doctor
   def patients
     appointments.map do |appointment|
       appointment.patient
-      binding.pry
     end
   end
 
