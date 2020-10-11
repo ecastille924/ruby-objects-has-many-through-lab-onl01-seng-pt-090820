@@ -1,9 +1,11 @@
 class Patient
 
   attr_reader :name, :appointment, :doctor
+  @@all = []
 
   def initialize(name)
     @name = name
+    
   end
 
   def self.all
